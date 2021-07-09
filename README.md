@@ -450,3 +450,10 @@ instead of `elasticsearch`.*
 [upgrade]: https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html
 
 [swarm-mode]: https://docs.docker.com/engine/swarm/
+
+## file .env
+
+```
+ELK_VERSION=7.13.2
+```
+
