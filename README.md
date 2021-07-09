@@ -456,4 +456,16 @@ instead of `elasticsearch`.*
 ```
 ELK_VERSION=7.13.2
 ```
+## install x-pack
+
+```
+https://www.elastic.co/guide/en/elasticsearch/reference/6.2/installing-xpack-es.html
+
+cd /tmp
+
+wget https://artifacts.elastic.co/downloads/packs/x-pack/x-pack-6.2.4.zip
+
+bin/elasticsearch-plugin install file:///tmp/x-pack-6.2.4.zip
+```
+
 
